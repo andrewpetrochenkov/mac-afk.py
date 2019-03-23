@@ -1,0 +1,13 @@
+{
+  "name": "mac-afk",
+  "version": "2019.3.22",
+  "description": "get afk time",
+  "keywords": [
+    "afk"
+  ],
+  "homepage": "https://github.com/looking-for-a-job/mac-afk.py",
+  "license": "Unlicense",
+  "bin": {
+    "afk": "./scripts/afk"
+  }
+}

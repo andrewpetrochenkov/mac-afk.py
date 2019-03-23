@@ -1,7 +1,11 @@
 #!/usr/bin/env python
-"""MacOS afk time in days"""
+"""macOS afk time in days"""
 import mac_afk
 
 
-if __name__ == "__main__":
+def cli():
     print(mac_afk.days())
+
+
+if __name__ == "__main__":
+    cli()
