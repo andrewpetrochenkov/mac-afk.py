@@ -1,5 +1,6 @@
 <!--
 https://pypi.org/project/readme-generator/
+https://pypi.org/project/python-readme-generator/
 -->
 
 [![](https://img.shields.io/badge/OS-MacOS-blue.svg?longCache=True)]()
@@ -16,7 +17,7 @@ $ [sudo] npm i -g mac-afk
 $ [sudo] pip install mac-afk
 ```
 
-#### CLI
+#### Executable modules
 usage|`__doc__`
 -|-
 `python -m mac_afk.days` |macOS afk time in days
@@ -24,6 +25,7 @@ usage|`__doc__`
 `python -m mac_afk.minutes` |macOS afk time in minutes
 `python -m mac_afk.seconds` |macOS afk time in seconds
 
+#### Scripts usage
 ```bash
 usage: afk
 ```
@@ -42,5 +44,5 @@ $ sleep 3 && afk
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
 </p>
