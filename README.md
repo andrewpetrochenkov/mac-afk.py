@@ -1,33 +1,21 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/badge/OS-MacOS-blue.svg?longCache=True)]()
-[![](https://img.shields.io/pypi/pyversions/mac-afk.svg?longCache=True)](https://pypi.org/project/mac-afk/)
-[![](https://img.shields.io/pypi/v/mac-afk.svg?maxAge=3600)](https://pypi.org/project/mac-afk/)
-[![](https://img.shields.io/npm/v/mac-afk.svg?maxAge=3600)](https://www.npmjs.com/package/mac-afk)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/mac-afk.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/mac-afk.py/)
 
-#### Installation
-```bash
-$ [sudo] npm i -g mac-afk
-```
+
+[![](https://img.shields.io/badge/OS-Unix-blue.svg?longCache=True)]()
+[![](https://img.shields.io/pypi/v/mac-afk.svg?maxAge=3600)](https://pypi.org/project/mac-afk/)
+[![](https://img.shields.io/npm/v/mac-afk.svg?maxAge=3600)](https://www.npmjs.com/package/mac-afk)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/mac-afk.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/mac-afk.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install mac-afk
 ```
 
-#### Executable modules
-usage|`__doc__`
--|-
-`python -m mac_afk.days` |macOS afk time in days
-`python -m mac_afk.hours` |macOS afk time in hours
-`python -m mac_afk.minutes` |macOS afk time in minutes
-`python -m mac_afk.seconds` |macOS afk time in seconds
-
-#### Scripts usage
 ```bash
-usage: afk
+$ [sudo] npm i -g mac-afk
 ```
 
 #### Examples
@@ -44,5 +32,5 @@ $ sleep 3 && afk
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

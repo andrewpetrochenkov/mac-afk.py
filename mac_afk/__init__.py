@@ -1,10 +1,9 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+__all__ = ['seconds', 'minutes', 'hours', 'days']
+
+
 import os
-import public
 
 
-@public.add
 def seconds():
     """afk time in seconds"""
     cmd = """
@@ -22,19 +21,16 @@ def seconds():
             del os.environ["LC_ALL"]
 
 
-@public.add
 def minutes():
     """afk time in minutes"""
     return seconds() % 60
 
 
-@public.add
 def hours():
     """afk time in hours"""
     return minutes() % 60
 
 
-@public.add
 def days():
     """afk time in days"""
     return hours() % 24
